@@ -56,7 +56,7 @@ async def is_blacklist(text: str) -> Optional[str]:
     return None
 
 
-@Bot.on_message(filters.command("ankes") & filters.group & Admin, group=1)
+@Bot.on_message(filters.command("ankes") & filters.group & Admin, group=88)
 async def handler_command(client: Client, message: Message):
     args = message.text.split(maxsplit=1)
     if len(args) < 2:
@@ -131,7 +131,7 @@ async def handle_superankes(client: Client, message: Message):
         pass
 
 
-@Bot.on_message(filters.group & filters.incoming & Gcast, group=4)
+@Bot.on_message(filters.group & filters.incoming & Gcast, group=89)
 async def message_handler(client: Client, message: Message):
     chat_id = message.chat.id
     user_id = message.from_user.id
