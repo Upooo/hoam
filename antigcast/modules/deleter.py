@@ -56,7 +56,7 @@ async def is_blacklist(text: str) -> Optional[str]:
     return None
 
 
-@Bot.on_message(filters.command("ankes") & filters.group & Admin)
+@Bot.on_message(filters.command("ankes") & filters.group & Admin, group=1)
 async def handler_command(client: Client, message: Message):
     args = message.text.split(maxsplit=1)
     if len(args) < 2:
@@ -72,7 +72,7 @@ async def handler_command(client: Client, message: Message):
     else:
         await message.reply("Argumen tidak valid. Gunakan 'on' atau 'off'.")
 
-@Bot.on_message(filters.command("superankes") & filters.group & Admin)
+@Bot.on_message(filters.command("superankes") & filters.group & Admin, group=2)
 async def handler_command(client: Client, message: Message):
     args = message.text.split(maxsplit=1)
     if len(args) < 2:
@@ -81,10 +81,10 @@ async def handler_command(client: Client, message: Message):
     status = args[1].lower()
     if status == "on":
         await set_superankes_state(message.chat.id, True)
-        await message.reply("✅ Ankes diaktifkan.")
+        await message.reply("✅ Super ankes diaktifkan.")
     elif status == "off":
         await set_superankes_state(message.chat.id, False)
-        await message.reply("❌ Ankes dinonaktifkan.")
+        await message.reply("❌ Super ankes dinonaktifkan.")
     else:
         await message.reply("Argumen tidak valid. Gunakan 'on' atau 'off'.")
 
@@ -101,7 +101,7 @@ async def is_replying_admin(client : Client, message: Message) -> bool:
     except:
         return False
 
-@Bot.on_message(filters.group & filters.incoming, group=7)
+@Bot.on_message(filters.group & filters.incoming, group=3)
 async def handle_superankes(client: Client, message: Message):
     chat_id = message.chat.id
     user_id = message.from_user.id
@@ -173,7 +173,7 @@ async def message_handler(client: Client, message: Message):
         except RPCError:
             pass
 
-@Bot.on_message(filters.command("addbl") & filters.group & Admin)
+@Bot.on_message(filters.command("addbl") & filters.group & Admin, group=5)
 async def addbl_message(client: Client, message: Message):
     trigger = get_arg(message) or (message.reply_to_message.text if message.reply_to_message else "")
     if not trigger:
@@ -190,7 +190,7 @@ async def addbl_message(client: Client, message: Message):
     await proses.delete()
     await message.delete()
 
-@Bot.on_message(filters.command("delbl") & filters.group & Admin)
+@Bot.on_message(filters.command("delbl") & filters.group & Admin, group=6)
 async def delbl_message(client: Client, message: Message):
     trigger = get_arg(message) or (message.reply_to_message.text if message.reply_to_message else "")
     if not trigger:
@@ -207,7 +207,7 @@ async def delbl_message(client: Client, message: Message):
     await proses.delete()
     await message.delete()
 
-@app.on_message(filters.command("acc") & filters.group)
+@app.on_message(filters.command("acc") & filters.group, group=7)
 async def addfree_command(client: Client, message: Message):
     admin = await client.get_chat_member(message.chat.id, message.from_user.id)
     if admin.status not in [CMS.OWNER, CMS.ADMINISTRATOR] and message.from_user.id != OWNER_ID:
@@ -225,7 +225,7 @@ async def addfree_command(client: Client, message: Message):
     await client.send_message(chat_id,text)
 
 
-@Bot.on_message(filters.command("unacc") & filters.group)
+@Bot.on_message(filters.command("unacc") & filters.group, group=8)
 async def delfree_command(client: Client, message: Message):
     admin = await client.get_chat_member(message.chat.id, message.from_user.id)
     if admin.status not in [CMS.OWNER, CMS.ADMINISTRATOR] and message.from_user.id != OWNER_ID:
@@ -244,7 +244,7 @@ async def delfree_command(client: Client, message: Message):
     await client.send_message(chat_id,text)
     return
 
-@Bot.on_message(filters.command("approved") & filters.group)
+@Bot.on_message(filters.command("approved") & filters.group, group=9)
 async def getfree_command(client: Client, message: Message):
     if message.from_user.id != OWNER_ID:
         return
