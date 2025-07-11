@@ -103,6 +103,9 @@ async def is_replying_admin(client : Client, message: Message) -> bool:
 
 @Bot.on_message(filters.group & filters.incoming, group=3)
 async def handle_superankes(client: Client, message: Message):
+    if not message.from_user:
+        return
+    
     chat_id = message.chat.id
     user_id = message.from_user.id
 
