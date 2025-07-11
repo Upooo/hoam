@@ -1,0 +1,668 @@
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - No module named 'antigcast.utils'
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - bad operand type for unary ~: 'NoneType'
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - bad operand type for unary ~: 'dict'
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - unhashable type: 'dict'
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - SSL handshake failed: ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 686f82efcf4403691eb748a4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - SSL handshake failed: ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 686f832e9265b172767f86c9, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-00.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-01.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-cejjkou-shard-00-02.8vx3q4a.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - Unhandled exception: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 370, in _process_packet
+    await self._execute_callback(handler, parsed_update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 407, in _execute_callback
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[ERROR] - pyrogram.dispatcher - Unhandled exception: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 370, in _process_packet
+    await self._execute_callback(handler, parsed_update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 407, in _execute_callback
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[ERROR] - pyrogram.dispatcher - 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[ERROR] - pyrogram.dispatcher - 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[ERROR] - pyrogram.dispatcher - 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 64, in deletermessag
+    if not await isGcast(filters, app, message):
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py", line 12, in isGcast
+    blc = [w.lower().strip() for w in file.readlines()]
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 5: character maps to <undefined>
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'notif'
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 72, in handler_command
+    await app.notif(message.chat.id,text)
+AttributeError: 'Bot' object has no attribute 'notif'
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[ERROR] - pyrogram.dispatcher - user.__init__() takes from 1 to 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 426, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 103, in check
+    await self.filters(client, update)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\filters.py", line 89, in __call__
+    y = await self.other(client, update)
+TypeError: user.__init__() takes from 1 to 2 positional arguments but 3 were given
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - cannot import name 'get_arg' from 'antigcast.helpers.message' (C:\Users\aryas\#Userbot\anti_gikes\antigcast\helpers\message.py)
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - get_bl_words() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 92, in message_handler
+    blacklist_check, emoji_check, gibberish_check = await asyncio.gather(
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 51, in is_blacklist
+    blacklist_data = await get_bl_words(chat_id)
+TypeError: get_bl_words() takes 0 positional arguments but 1 was given
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 92, in message_handler
+    blacklist_check, emoji_check, gibberish_check = await asyncio.gather(
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 53, in is_blacklist
+    keyword = data["text"].lower()
+TypeError: string indices must be integers
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - is_blacklist() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 94, in message_handler
+    is_blacklist(chat_id, text),
+TypeError: is_blacklist() takes 1 positional argument but 2 were given
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'notif'
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 166, in addfree_command
+    await app.notif(chat_id,text)
+AttributeError: 'Bot' object has no attribute 'notif'
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'notif'
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 166, in addfree_command
+    await app.notif(chat_id,text)
+AttributeError: 'Bot' object has no attribute 'notif'
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[ERROR] - pyrogram.dispatcher - is_free_user() missing 1 required positional argument: 'user_id'
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 86, in message_handler
+    if await is_free_user(user_id):  # pastikan fungsi ini kamu buat
+TypeError: is_free_user() missing 1 required positional argument: 'user_id'
+[ERROR] - pyrogram.dispatcher - is_free_user() missing 1 required positional argument: 'user_id'
+Traceback (most recent call last):
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\aryas\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\aryas\#Userbot\anti_gikes\antigcast\modules\deleter.py", line 86, in message_handler
+    if await is_free_user(user_id):  # pastikan fungsi ini kamu buat
+TypeError: is_free_user() missing 1 required positional argument: 'user_id'
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[WARNING] - antigcast - No module named 'config'
+[INFO] - antigcast - Bot Berhenti.
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - INFO - Starting Bot...
+[INFO] - root - Stop signal received (SIGINT). Exiting...
