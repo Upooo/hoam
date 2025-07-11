@@ -57,7 +57,7 @@ async def is_blacklist(text: str) -> Optional[str]:
 
 
 @Bot.on_message(filters.command("ankes") & filters.group & Admin, group=88)
-async def handler_command(client: Client, message: Message):
+async def handler_ankes_command(client: Client, message: Message):
     args = message.text.split(maxsplit=1)
     if len(args) < 2:
         return await message.reply("Gunakan: /ankes on atau /ankes off")
@@ -245,7 +245,7 @@ async def delfree_command(client: Client, message: Message):
     return
 
 @Bot.on_message(filters.command("approved") & filters.group, group=9)
-async def getfree_command(client: Client, message: Message):
+async def approved_command(client: Client, message: Message):
     if message.from_user.id != OWNER_ID:
         return
     

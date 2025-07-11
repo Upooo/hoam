@@ -118,15 +118,21 @@ async def untag(client, message: Message):
 @app.on_message(filters.command("cekkodam") & FiltersAdmin & filters.group, group=35)
 async def cek_kodam_command(client, message):
     OWNER = [7070276015, 6293684359, 7460160870]
-    replied_user = message.reply_to_message.from_user.first_name if message.reply_to_message else None
+
+    # Cek apakah pesan merupakan reply
+    if not message.reply_to_message or not message.reply_to_message.from_user:
+        return await message.reply_text("Kamu harus me-reply pesan seseorang untuk dicek khodamnya.")
+
+    replied_user = message.reply_to_message.from_user.first_name
     replied_user_id = message.reply_to_message.from_user.id
+
     if replied_user_id in TEAM_IDOL:
-        response = random.choice(nama_kodam)
-        reply_text = f"<blockquote><b>Khodam {replied_user}, adalah: ALBERT EINSTEIN</b></blockquote>\n<blockquote><b>Dia adalah orang yang sangat pintar dan sangat sangat tidak terkalahkan.</b></blockquote>"
-        await message.reply_text(reply_text)
-    elif replied_user:
-        response = random.choice(nama_kodam)
-        reply_text = f"<blockquote>Kodam {replied_user} adalah: {response}</blockquote>"
-        message.reply_text(reply_text)
+        reply_text = (
+            f"<blockquote><b>Khodam {replied_user}, adalah: ALBERT EINSTEIN</b></blockquote>\n"
+            "<blockquote><b>Dia adalah orang yang sangat pintar dan sangat sangat tidak terkalahkan.</b></blockquote>"
+        )
     else:
-        await message.reply_text("Kamu harus mereply sesorang yang ingin saya cek kodam nya.")
+        response = random.choice(nama_kodam)
+        reply_text = f"<blockquote>Khodam {replied_user} adalah: {response}</blockquote>"
+
+    await message.reply_text(reply_text)

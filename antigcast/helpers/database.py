@@ -116,9 +116,10 @@ async def rem_actived_chat(trigger) -> bool:
     else:
         return False
 
-async def get_state(chat_id: int) -> Optional[bool]:
+
+async def get_state(chat_id: int) -> bool:
     state_info = await state.find_one({"chat_id": chat_id})
-    return state_info.get("state") if state_info else None
+    return state_info.get("state", False) if state_info else False
 
 async def set_state(chat_id: int, state_val: bool) -> bool:
     if not isinstance(state_val, bool):
@@ -126,9 +127,9 @@ async def set_state(chat_id: int, state_val: bool) -> bool:
     result = await state.update_one({"chat_id": chat_id}, {"$set": {"state": state_val}}, upsert=True)
     return result.upserted_id is not None or result.modified_count > 0
 
-async def get_superankes_state(chat_id: int) -> Optional[bool]:
+async def get_superankes_state(chat_id: int) -> bool:
     state_info = await superankes_state.find_one({"chat_id": chat_id})
-    return state_info.get("superankes_state") if state_info else None
+    return state_info.get("superankes_state", False) if state_info else False
 
 async def set_superankes_state(chat_id: int, state_val: bool) -> bool:
     if not isinstance(state_val, bool):
